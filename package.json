@@ -4,7 +4,7 @@
   "description": "My React project",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack -p && webpack-dev-server --content-base dist",
+    "dev": "webpack -p && webpack-dev-server --content-base",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
