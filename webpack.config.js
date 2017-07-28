@@ -13,7 +13,6 @@ DEV_DIR = path.resolve(__dirname,'src');
 var config = {
 	entry:DEV_DIR + '/index.js',
 	output:{
-		publicPath:"/dist",
 		path:BUILD_DIR,
 		filename:'bundle.min.js',
 	},
@@ -26,6 +25,6 @@ var config = {
 				exclude:/node_modules/,
 			}
 		]
-	}
+	},
 };
 module.exports = config;
