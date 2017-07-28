@@ -1,7 +1,11 @@
 import React from "react";
 import {render} from "react-dom";
-
+import Header from "./components/header";
+import Content from "./components/content";
 render(
-	<h1>Hello World!</h1>,
+	<div>
+		<Header/>
+		<Content/>
+	</div>,
 	document.getElementById('root')
 );
