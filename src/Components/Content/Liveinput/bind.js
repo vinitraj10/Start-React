@@ -11,7 +11,7 @@ export default class Bind extends React.Component{
 	render(){
 		return(
 			<div>
-				<h2>Data binding like angular:-</h2>
+				<h2>Live input preview:-</h2>
 				<div className="well">
 					<input onChange={this.onChangeInput}/><br/>
 					<cite>{this.state.value}</cite>
