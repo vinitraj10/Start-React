@@ -33,7 +33,7 @@ body {
   width: 100px;
   height: 80px;
   position: absolute;
-  left: 5%;
+  left: 10%;
   transform: translate(-50%, -50%);
   background: url(https://cssanimation.rocks/images/posts/steps/heart.png) no-repeat;
   background-position: 0 0;
