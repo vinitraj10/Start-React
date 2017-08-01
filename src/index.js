@@ -6,6 +6,7 @@ import Header from "./Components/Header/header";
 import Bind   from "./Components/Content/Liveinput/bind";
 import Toggle from "./Components/Content/Toggle/toggle";
 import Like   from "./Components/Content/TwitterLike/like";
+import Time   from "./Components/Content/Timer/time";
 import Footer from "./Components/Footer/footer";
 render(
 	<div>
@@ -22,6 +23,13 @@ render(
 			<div className="row">
 				<div className="col-xs-12">
 					<Like/>
+				</div>
+			</div>
+			<div className="row">
+				<div className="col-xs-12">
+					<pre>
+						<Time/>
+					</pre>
 				</div>
 			</div>
 		</div>
