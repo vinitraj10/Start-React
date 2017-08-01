@@ -8,6 +8,8 @@ export default class Time extends React.Component{
 		}
 	}
 	render(){
-		return this.state.date.toLocaleTimeString();
+		return (
+			<h1>{this.state.date.toLocaleTimeString()}</h1>
+		);
 	}
 }

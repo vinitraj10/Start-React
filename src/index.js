@@ -25,7 +25,7 @@ render(
 					<Like/>
 				</div>
 			</div>
-			<div className="row">
+			<div className="row row-content">
 				<div className="col-xs-12">
 					<pre>
 						<Time/>
