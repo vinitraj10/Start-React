@@ -19,7 +19,6 @@ export default class Toggle extends React.Component{
 		const checkMsg = this.state.isMessages;
 		return (
 			<div>
-				<h2>Tab-Switching In React:-</h2>
 				<ul className="nav nav-tabs">
 				  <li role="presentation" className={checkHome?("active"):null}><a href="#" onClick={this.home.bind(this)}>Home</a></li>
 				  <li role="presentation" className={checkProfile?("active"):null}><a href="#" onClick = {this.profile.bind(this)}>Profile</a></li>

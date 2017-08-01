@@ -14,19 +14,23 @@ render(
 		<div className="container">
 			<div className = "row row-content">
 				<div className="col-xs-12">
+				<h2>Live input preview:-</h2>
 					<Bind/>
 				</div>
 				<div className = "col-xs-12">
+				<h2>Tab-Switching In React:-</h2>
 					<Toggle/>
 				</div>
 			</div>
 			<div className="row">
 				<div className="col-xs-12">
+				<h2>Twitter Like button:-</h2>
 					<Like/>
 				</div>
 			</div>
 			<div className="row row-content">
 				<div className="col-xs-12">
+					<h2>Live Time:-</h2>
 					<pre>
 						<Time/>
 					</pre>

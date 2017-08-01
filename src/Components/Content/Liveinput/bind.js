@@ -11,7 +11,6 @@ export default class Bind extends React.Component{
 	render(){
 		return(
 			<div>
-				<h2>Live input preview:-</h2>
 				<div className="well">
 					<input onChange={this.onChangeInput}/><br/>
 					<cite>{this.state.value}</cite>
@@ -22,7 +21,7 @@ export default class Bind extends React.Component{
 	onChangeInput(event){
 		this.setState({
 			value:event.target.value
-		})
+		});
 
 	}
 }
