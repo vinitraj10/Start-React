@@ -35,6 +35,7 @@ render(
 					<pre>
 						<Time/>
 					</pre>
+					<h2>List item rendered by map function:-</h2>
 					<pre>
 						<List/>
 					</pre>
