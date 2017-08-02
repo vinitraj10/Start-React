@@ -9,7 +9,6 @@ export default class Like extends React.Component{
 	}
 	render(){
 		const isliked = this.state.liked;
-		console.log(isliked);
 		return (
 			<div>
 				<span className={isliked?("heart heart-liked"):("heart")} onClick={this.handleLike.bind(this)}></span>

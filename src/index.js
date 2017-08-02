@@ -7,6 +7,7 @@ import Bind   from "./Components/Content/Liveinput/bind";
 import Toggle from "./Components/Content/Toggle/toggle";
 import Like   from "./Components/Content/TwitterLike/like";
 import Time   from "./Components/Content/Timer/time";
+import List   from "./Components/Content/List/list"
 import Footer from "./Components/Footer/footer";
 render(
 	<div>
@@ -33,6 +34,9 @@ render(
 					<h2>Live Time:-</h2>
 					<pre>
 						<Time/>
+					</pre>
+					<pre>
+						<List/>
 					</pre>
 				</div>
 			</div>
